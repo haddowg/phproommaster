@@ -1,0 +1,332 @@
+﻿/* DISPID=1610612736 */
+	function QueryInterface(
+		/* VT_PTR [26] [in] --> ? [29]  */ &$riid,
+		/* VT_PTR [26] [out] --> VT_PTR [26]  */ &$ppvObj
+		)
+	{
+	}
+	/* DISPID=1610612737 */
+	/* VT_UI4 [19] */
+	function AddRef(
+		)
+	{
+	}
+	/* DISPID=1610612738 */
+	/* VT_UI4 [19] */
+	function Release(
+		)
+	{
+	}
+	/* DISPID=1610678272 */
+	function GetTypeInfoCount(
+		/* VT_PTR [26] [out] --> VT_UINT [23]  */ &$pctinfo
+		)
+	{
+	}
+	/* DISPID=1610678273 */
+	function GetTypeInfo(
+		/* VT_UINT [23] [in] */ $itinfo,
+		/* VT_UI4 [19] [in] */ $lcid,
+		/* VT_PTR [26] [out] --> VT_PTR [26]  */ &$pptinfo
+		)
+	{
+	}
+	/* DISPID=1610678274 */
+	function GetIDsOfNames(
+		/* VT_PTR [26] [in] --> ? [29]  */ &$riid,
+		/* VT_PTR [26] [in] --> VT_PTR [26]  */ &$rgszNames,
+		/* VT_UINT [23] [in] */ $cNames,
+		/* VT_UI4 [19] [in] */ $lcid,
+		/* VT_PTR [26] [out] --> VT_I4 [3]  */ &$rgdispid
+		)
+	{
+	}
+	/* DISPID=1610678275 */
+	function Invoke(
+		/* VT_I4 [3] [in] */ $dispidMember,
+		/* VT_PTR [26] [in] --> ? [29]  */ &$riid,
+		/* VT_UI4 [19] [in] */ $lcid,
+		/* VT_UI2 [18] [in] */ $wFlags,
+		/* VT_PTR [26] [in] --> ? [29]  */ &$pdispparams,
+		/* VT_PTR [26] [out] --> VT_VARIANT [12]  */ &$pvarResult,
+		/* VT_PTR [26] [out] --> ? [29]  */ &$pexcepinfo,
+		/* VT_PTR [26] [out] --> VT_UINT [23]  */ &$puArgErr
+		)
+	{
+	}
+	/* DISPID=1610809344 */
+	function ASPDebug(
+		/* VT_VARIANT [12] [in] */ $InDebugString
+		)
+	{
+	}
+	/* DISPID=1610809345 */
+	/* VT_VARIANT [12] */
+	function GetRoomAvailability(
+		/* VT_I4 [3] [in] */ $lCheckInDate,
+		/* VT_I4 [3] [in] */ $lCheckOutDate,
+		/* VT_UI1 [17] [in] */ $bAdults,
+		/* VT_UI1 [17] [in] */ $bChildren,
+		/* VT_BSTR [8] [in] */ $sRateTypeIn,
+		/* VT_BSTR [8] [in] */ $sDiscountTypeIn,
+		/* VT_BSTR [8] [in] */ $sDiscountAmountIn,
+		/* VT_UI1 [17] [in] */ $bDiscountDays,
+		/* VT_I4 [3] [in] */ $lTravelid,
+		/* VT_BSTR [8] [in] */ $sGroupCodeIn,
+		/* VT_I4 [3] [in] */ $lRooms
+		)
+	{
+	}
+	/* DISPID=1610809346 */
+	/* VT_VARIANT [12] */
+	function ValidateTravelId(
+		/* VT_I4 [3] [in] */ $lTravelid,
+		/* VT_BSTR [8] [in] */ $sTravelCodeIn
+		)
+	{
+	}
+	/* DISPID=1610809347 */
+	/* VT_VARIANT [12] */
+	function CreateReservation(
+		/* VT_I4 [3] [in] */ $lCheckInDate,
+		/* VT_I4 [3] [in] */ $lCheckOutDate,
+		/* VT_UI1 [17] [in] */ $bAdults,
+		/* VT_UI1 [17] [in] */ $bChildren,
+		/* VT_BSTR [8] [in] */ $sRoomTypeIn,
+		/* VT_BSTR [8] [in] */ $sRateTypeIn,
+		/* VT_BSTR [8] [in] */ $sSessionNumIn,
+		/* VT_UI1 [17] [in] */ $bEntryNum,
+		/* VT_BSTR [8] [in] */ $sPrefixIn,
+		/* VT_BSTR [8] [in] */ $sFirstNameIn,
+		/* VT_BSTR [8] [in] */ $sLastNameIn,
+		/* VT_BSTR [8] [in] */ $sStreetIn,
+		/* VT_BSTR [8] [in] */ $sCityIn,
+		/* VT_BSTR [8] [in] */ $sStateIn,
+		/* VT_BSTR [8] [in] */ $sZipCodeIn,
+		/* VT_BSTR [8] [in] */ $sCountryIn,
+		/* VT_BSTR [8] [in] */ $sPhone1In,
+		/* VT_BSTR [8] [in] */ $sPhone2In,
+		/* VT_BSTR [8] [in] */ $sEmailIn,
+		/* VT_BSTR [8] [in] */ $sCardNumIn,
+		/* VT_BSTR [8] [in] */ $sExpDateIn,
+		/* VT_BSTR [8] [in] */ $sNOCIn,
+		/* VT_BSTR [8] [in] */ $sMadeByIn,
+		/* VT_BSTR [8] [in] */ $sCompanyIn,
+		/* VT_BSTR [8] [in] */ $sTravelIdIn,
+		/* VT_BSTR [8] [in] */ $sSpecialIn,
+		/* VT_BSTR [8] [in] */ $sDiscountTypeIn,
+		/* VT_BSTR [8] [in] */ $sDiscountAmountIn,
+		/* VT_UI1 [17] [in] */ $bDiscountDays,
+		/* VT_BSTR [8] [in] */ $sGroupCodeIn,
+		/* VT_I4 [3] [in] */ $lCityLedger,
+		/* VT_BSTR [8] [in] */ $sNotesIn,
+		/* VT_BSTR [8] [in] */ $sNumRoomsIn,
+		/* VT_BSTR [8] [in] */ $sUserField1In,
+		/* VT_BSTR [8] [in] */ $sUserField2In
+		)
+	{
+	}
+	/* DISPID=1610809348 */
+	/* VT_VARIANT [12] */
+	function GetPromoCode(
+		/* VT_BSTR [8] [in] */ $sPromoCode,
+		/* VT_I4 [3] [in] */ $LpromoCI,
+		/* VT_I4 [3] [in] */ $LPromoCO
+		)
+	{
+	}
+	/* DISPID=1610809349 */
+	/* VT_VARIANT [12] */
+	function GetReservationStatus(
+		/* VT_I4 [3] [in] */ $lConfNum,
+		/* VT_BSTR [8] [in] */ $sReferenceNumIn
+		)
+	{
+	}
+	/* DISPID=1610809350 */
+	/* VT_VARIANT [12] */
+	function CancelReservation(
+		/* VT_VARIANT [12] [in] */ $lConfNum,
+		/* VT_VARIANT [12] [in] */ $sReferenceNum
+		)
+	{
+	}
+	/* DISPID=1610809351 */
+	/* VT_VARIANT [12] */
+	function GetDepositInfo(
+		/* VT_I4 [3] [in] */ $lSessionIdIn,
+		/* VT_UI1 [17] [in] */ $bEntryNumber,
+		/* VT_I4 [3] [in] */ $lTravelid
+		)
+	{
+	}
+	/* DISPID=1610809353 */
+	/* VT_BOOL [11] */
+	function RoomMasterActive(
+		)
+	{
+	}
+	/* DISPID=1610809356 */
+	/* VT_UI1 [17] */
+	function GetIQAFunction(
+		/* VT_I4 [3] [in] */ $InTypeLong,
+		/* VT_VARIANT [12] [in] */ $InParm1,
+		/* VT_VARIANT [12] [in] */ $InParm2,
+		/* VT_VARIANT [12] [in] */ $InParm3,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$OutParm
+		)
+	{
+	}
+	/* DISPID=1610809357 */
+	/* VT_VARIANT [12] */
+	function GetAddressType(
+		)
+	{
+	}
+	/* DISPID=1610809358 */
+	/* VT_VARIANT [12] */
+	function GetNameInfo(
+		)
+	{
+	}
+	/* DISPID=1610809359 */
+	/* VT_VARIANT [12] */
+	function GetMessage(
+		/* VT_PTR [26] [in][out] --> VT_I4 [3]  */ &$lMessageId,
+		/* VT_PTR [26] [in][out] --> VT_UI1 [17]  */ &$bNumMessagesIn
+		)
+	{
+	}
+	/* DISPID=1610809360 */
+	/* VT_UI1 [17] */
+	function GetNumNights(
+		/* VT_I4 [3] [in] */ $lCheckInDate,
+		/* VT_I4 [3] [in] */ $lCheckOutDate
+		)
+	{
+	}
+	/* DISPID=1610809362 */
+	/* VT_VARIANT [12] */
+	function GetRateTypes(
+		)
+	{
+	}
+	/* DISPID=1610809363 */
+	/* VT_BOOL [11] */
+	function GetRuleError(
+		/* VT_I4 [3] [in] */ $lSessionIdIn,
+		/* VT_UI1 [17] [in] */ $bEntryNumber,
+		/* VT_I4 [3] [in] */ $lCheckInDate,
+		/* VT_I4 [3] [in] */ $lCheckOutDate
+		)
+	{
+	}
+	/* DISPID=1610809365 */
+	/* VT_UI1 [17] */
+	function RMSendEmail(
+		/* VT_BSTR [8] [in] */ $InInto,
+		/* VT_BSTR [8] [in] */ $InSubject,
+		/* VT_BSTR [8] [in] */ $InText
+		)
+	{
+	}
+	/* DISPID=1610809366 */
+	/* VT_UI1 [17] */
+	function RMUpdateCounter(
+		/* VT_UI1 [17] [in] */ $InType
+		)
+	{
+	}
+	/* DISPID=1610809367 */
+	/* VT_UI1 [17] */
+	function GetRoomTypeForecast(
+		/* VT_VARIANT [12] [in] */ $sStartDateIn,
+		/* VT_VARIANT [12] [in] */ $sRoomTypeIn,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$p1out,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$p2out,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$p3out,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$p4out,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$p5out,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$p6out,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$p7out,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$sErrMsg
+		)
+	{
+	}
+	/* DISPID=1610809368 */
+	/* VT_VARIANT [12] */
+	function GetGroupDetail(
+		/* VT_VARIANT [12] [in] */ $Groupcode,
+		/* VT_VARIANT [12] [in] */ $RecordLength,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$NumRes,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$NumRooms,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$NumNights
+		)
+	{
+	}
+	/* DISPID=1610809369 */
+	/* VT_UI1 [17] */
+	function GetGroupHeader(
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$Groupcode,
+		/* VT_VARIANT [12] [in] */ $GroupZipcode,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$RetGroupName,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$RetGroupStatus,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$RetNumRes
+		)
+	{
+	}
+	/* DISPID=1610809370 */
+	/* VT_VARIANT [12] */
+	function GetRoomTypes(
+		)
+	{
+	}
+	/* DISPID=1610809371 */
+	/* VT_UI1 [17] */
+	function GetSCEntry(
+		/* VT_BSTR [8] [in] */ $sSessionIdIn,
+		/* VT_UI1 [17] [in] */ $bEntryNumberIn,
+		/* VT_BSTR [8] [in] */ $sItemIdIn,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$sItemIdOut,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$sGroupHeaderOut,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$sShortDescriptionOut,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$sLongDescriptionOut,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$sPictureFileOut,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$sPriceOut,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$sPriceDisplayOut,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$sQtyTypeOut,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$sDatesAvailableOut,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$SconfirmDescOut,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$SCommentOut
+		)
+	{
+	}
+	/* DISPID=1610809372 */
+	/* VT_UI1 [17] */
+	function AddSCItems(
+		/* VT_BSTR [8] [in] */ $sConfNum,
+		/* VT_BSTR [8] [in] */ $sItemIdentifiers,
+		/* VT_BSTR [8] [in] */ $sQuantities,
+		/* VT_BSTR [8] [in] */ $sPickDays,
+		/* VT_BSTR [8] [in] */ $SComment
+		)
+	{
+	}
+	/* DISPID=1610809373 */
+	/* VT_UI1 [17] */
+	function GetSCTotal(
+		/* VT_BSTR [8] [in] */ $sSessionId,
+		/* VT_UI1 [17] [in] */ $bEntryNumber,
+		/* VT_I4 [3] [in] */ $lTravelid,
+		/* VT_BSTR [8] [in] */ $sItemIdentifiers,
+		/* VT_BSTR [8] [in] */ $sQuantities,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$sRoomAmountOut,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$sRoomTaxOut,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$sOptionsAmountOut,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$sOptionsTaxOut,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$sGrandTotalOut,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$sDepositRequiredOut,
+		/* VT_PTR [26] [in][out] --> VT_VARIANT [12]  */ &$sDueAtCheckInOut
+		)
+	{
+	}
